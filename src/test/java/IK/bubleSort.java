@@ -1,5 +1,8 @@
 package IK;
 
+import LeetCode.LongestCommonPrefix;
+import LeetCode.RemoveSpeciallChars;
+import LeetCode.Valid_Parantheses;
 import Utils.IKAlgos;
 import Utils.QuickSRT;
 import org.junit.Test;
@@ -24,8 +27,12 @@ public class bubleSort {
        arr.add(1);
 
 
-        QuickSRT.quickSort(arr);
-       IKAlgos.mergeSort(arr);
+     String[]aryr= {"flower","flow","flight"};
+
+      String s="fl";
+      String f="fl";
+      int y= s.indexOf(f);
+       Boolean b=Valid_Parantheses.isValid("(){}}{");
 
     }}
 

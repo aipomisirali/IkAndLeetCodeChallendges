@@ -5,35 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6491f08b-06c2-4961-85ee-f317da1185dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataStructures/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataStructures/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataStructures/StackDS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/FibNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/RemoveSpeciallChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/RomantoInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/Valid_Parantheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/reverseStringArrInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/testLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/DataStructures/LinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/DataStructures/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/DataStructures/StackDS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/FibNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/LongestCommonPrefix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/RemoveSpeciallChars.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/RomantoInteger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/Valid_Parantheses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/reverseStringArrInt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Test/testLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IK/bubleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IK/bubleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/letterCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/letterCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/reverseString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/twoSumSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/twoSumSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IK/bubleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IK/bubleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LeetCode/letterCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/letterCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LeetCode/reverseString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LeetCode/twoSumSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/twoSumSolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/QuickSRT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/QuickSRT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +34,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
