@@ -1,0 +1,812 @@
+Index: src/test/java/LeetCode/reverseString.java
+===================================================================
+diff --git a/src/test/java/LeetCode/reverseString.java b/src/test/java/LeetCode/reverseString.java
+deleted file mode 100644
+--- a/src/test/java/LeetCode/reverseString.java	(revision edcc934feb7e20e795dcf4158e8267b312f34cd6)
++++ /dev/null	(revision edcc934feb7e20e795dcf4158e8267b312f34cd6)
+@@ -1,52 +0,0 @@
+-package LeetCode;
+-
+-import org.junit.Test;
+-
+-import java.awt.*;
+-
+-public class reverseString {
+-
+-    @Test
+-    public void tsetreverse() {
+-        System.out.println(ReverseHelper("Maria"));
+-        int[] arr={6,7,8,9,0,8,9};
+-        revArr(arr);
+-
+-    }
+-
+-    public String ReverseHelper(String str) {
+-        String  nstr="";
+-        char ch;
+-
+-        for (int i=str.length()-1; i>=0; i--)
+-        {
+-            nstr=nstr+ String.valueOf(str.charAt(i)); //extracts each character
+-            //adds each character in front of the existing string
+-        }
+-
+-
+-
+-        return nstr;
+-
+-    }
+-
+-    public void revArr(int[] arrNum) {
+-        // we will use two 'pointers'. One pointer will start from the beginning
+-        // another one from the back and we will swap their values
+-
+-        // pointer that will start from the back
+-        int j = arrNum.length - 1;
+-        for (int i = 0; i < arrNum.length/2; i++) {
+-            int temp = arrNum[i];
+-            arrNum[i] = arrNum[j - i];
+-            arrNum[j - i] = temp;
+-
+-
+-        }
+-        for (int i:arrNum) {
+-            System.out.print(i);
+-        }
+-
+-
+-    }
+-    }
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1670211763699)
++++ b/.idea/vcs.xml	(date 1670211763699)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1670211763742)
++++ b/.idea/misc.xml	(date 1670211763742)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1670211763745)
++++ b/.idea/compiler.xml	(date 1670211763745)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="LeetCode" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1670211763749)
++++ b/.idea/jarRepositories.xml	(date 1670211763749)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1670211763814)
++++ b/.idea/.gitignore	(date 1670211763814)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: src/test/java/DataStructures/LinkedList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/DataStructures/LinkedList.java b/src/test/java/DataStructures/LinkedList.java
+new file mode 100644
+--- /dev/null	(date 1670109503226)
++++ b/src/test/java/DataStructures/LinkedList.java	(date 1670109503226)
+@@ -0,0 +1,61 @@
++package DataStructures;
++
++public class LinkedList {
++    Node head;
++
++    public static LinkedList insert(LinkedList list, int data){
++        //Create a new node with given data
++    Node new_node=new Node(data);
++
++        // If the Linked List is empty,
++        // then make the new node as head
++
++    if(list.head==null){
++        list.head=new_node;}
++    else{
++        // Else traverse till the last node
++        // and insert the new_node there
++        Node last=list.head;
++        while(last.next!=null) {
++            last=last.next;
++
++        }
++        // Insert the new_node at last node
++        last.next=new_node;
++    }
++        // Return the list by head
++    return list;}
++    public static LinkedList inserString(LinkedList list, String data2){
++        //Create a new node with given data
++        Node new_node=new Node(data2);
++
++        // If the Linked List is empty,
++        // then make the new node as head
++
++        if(list.head==null){
++            list.head=new_node;}
++        else{
++            // Else traverse till the last node
++            // and insert the new_node there
++            Node last=list.head;
++            while(last.next!=null) {
++                last=last.next;
++
++            }
++            // Insert the new_node at last node
++            last.next=new_node;
++        }
++        // Return the list by head
++        return list;}
++
++    public static void print_linked_list(LinkedList list){
++        Node current_Node=list.head;
++        System.out.println("Linkedlist; ");
++        while(current_Node!=null){
++            System.out.println(current_Node.data2+ " ");
++            current_Node=current_Node.next;
++
++        }
++        }
++
++}
+Index: src/test/java/DataStructures/Node.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/DataStructures/Node.java b/src/test/java/DataStructures/Node.java
+new file mode 100644
+--- /dev/null	(date 1670109329228)
++++ b/src/test/java/DataStructures/Node.java	(date 1670109329228)
+@@ -0,0 +1,19 @@
++package DataStructures;
++
++public class Node {
++
++    int data;
++    String data2;
++
++    Node next;
++    Node(int d){
++        data=d;
++        next=null;
++
++    }
++    Node(String d2){
++        data2=d2;
++        next=null;
++
++    }
++}
+Index: src/test/java/DataStructures/StackDS.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/DataStructures/StackDS.java b/src/test/java/DataStructures/StackDS.java
+new file mode 100644
+--- /dev/null	(date 1669681060495)
++++ b/src/test/java/DataStructures/StackDS.java	(date 1669681060495)
+@@ -0,0 +1,39 @@
++package DataStructures;
++
++import org.junit.Test;
++
++import java.util.Iterator;
++import java.util.ListIterator;
++import java.util.Stack;
++
++public class StackDS {
++    @Test
++    public void StackFunctions(){
++
++        Stack st=new Stack();
++        st.push("hello");
++        st.push("hi");
++        st.push("drink");
++        st.push("cup");
++        st.push("IamHappy");
++
++        System.out.println(st.peek());
++
++        System.out.println(st.search("hi"));
++        Iterator itr=st.iterator();
++// Here with while and foreach
++//        while(itr.hasNext()) {
++//            Object values = itr.next();
++//            System.out.println(values);
++//        }
++//               st.forEach(var->{System.out.println(var)
++//        ;});
++//
++
++
++    ListIterator<String>listitr= st.listIterator(st.size());
++    while(listitr.hasPrevious()){
++        String str= listitr.previous();
++        System.out.println(str);
++    }
++}}
+Index: src/test/java/IK/bubleSort.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package IK;\n\nimport Utils.IKAlgos;\nimport Utils.QuickSRT;\nimport org.junit.Test;\n\nimport java.lang.annotation.Target;\nimport java.util.ArrayList;\nimport java.util.Arrays;\nimport java.util.List;\n\npublic class bubleSort {\n\n    @Test\n    public void testBubleSort() {\n        ArrayList<Integer> arr2 = new ArrayList<>();\n        ArrayList<Integer> arr = new ArrayList<>();\n\n        arr.add(5);\n        arr.add(8);\n        arr.add(3);\n        arr.add(9);\n        arr.add(4);\n       arr.add(1);\n\n\n        QuickSRT.quickSort(arr);\n       IKAlgos.mergeSort(arr);\n\n    }}\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/IK/bubleSort.java b/src/test/java/IK/bubleSort.java
+--- a/src/test/java/IK/bubleSort.java	(revision edcc934feb7e20e795dcf4158e8267b312f34cd6)
++++ b/src/test/java/IK/bubleSort.java	(date 1669700077306)
+@@ -1,5 +1,8 @@
+ package IK;
+ 
++import LeetCode.LongestCommonPrefix;
++import LeetCode.RemoveSpeciallChars;
++import LeetCode.Valid_Parantheses;
+ import Utils.IKAlgos;
+ import Utils.QuickSRT;
+ import org.junit.Test;
+@@ -24,8 +27,12 @@
+        arr.add(1);
+ 
+ 
+-        QuickSRT.quickSort(arr);
+-       IKAlgos.mergeSort(arr);
++     String[]aryr= {"flower","flow","flight"};
++
++      String s="fl";
++      String f="fl";
++      int y= s.indexOf(f);
++       Boolean b=Valid_Parantheses.isValid("(){}}{");
+ 
+     }}
+ 
+Index: src/test/java/LeetCode/FibNumbers.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/LeetCode/FibNumbers.java b/src/test/java/LeetCode/FibNumbers.java
+new file mode 100644
+--- /dev/null	(date 1666078432302)
++++ b/src/test/java/LeetCode/FibNumbers.java	(date 1666078432302)
+@@ -0,0 +1,27 @@
++package LeetCode;
++
++import org.junit.Test;
++
++public class FibNumbers {
++
++    @Test
++    public void TestFibNums(){
++        fibonacci(8);
++
++    }
++
++
++    public   void fibonacci(int count) {
++        int prevNumber = 0;
++        int nextNumber = 1;
++
++        System.out.println("Fibonacci Series " + count + ":");
++        for (int i = 1; i <= count; ++i) {
++            int fib = prevNumber + nextNumber;
++            prevNumber = nextNumber;
++            nextNumber = fib;
++            System.out.print(prevNumber + " ");
++
++        }
++
++    }}
+\ No newline at end of file
+Index: src/test/java/LeetCode/LongestCommonPrefix.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/LeetCode/LongestCommonPrefix.java b/src/test/java/LeetCode/LongestCommonPrefix.java
+new file mode 100644
+--- /dev/null	(date 1669242597904)
++++ b/src/test/java/LeetCode/LongestCommonPrefix.java	(date 1669242597904)
+@@ -0,0 +1,17 @@
++package LeetCode;
++
++public class LongestCommonPrefix {
++    public static String CommonPrefix(String[] strs) {
++
++        if (strs.length == 0) return "";
++        String prefix = strs[0];
++        for (int i = 1; i < strs.length; i++)
++
++            while (strs[i].indexOf(prefix) != 0) {
++                int h=strs[i].indexOf(prefix);
++                prefix = prefix.substring(0, prefix.length() - 1);
++                if (prefix.isEmpty()) return "";
++            }
++        return prefix;  }
++
++}
+Index: src/test/java/LeetCode/RemoveSpeciallChars.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/LeetCode/RemoveSpeciallChars.java b/src/test/java/LeetCode/RemoveSpeciallChars.java
+new file mode 100644
+--- /dev/null	(date 1668706951120)
++++ b/src/test/java/LeetCode/RemoveSpeciallChars.java	(date 1668706951120)
+@@ -0,0 +1,26 @@
++package LeetCode;
++
++import java.util.HashSet;
++import java.util.Set;
++
++public class RemoveSpeciallChars {
++
++    public static String removeSpChars(String str){
++
++        char[] StrToChar=str.toCharArray();
++
++         String SpecRemovedChar="";
++
++        for(int i=0; i<StrToChar.length; i++){
++
++            if(Character.isLetterOrDigit(StrToChar[i])){
++
++                SpecRemovedChar+=String.valueOf(StrToChar[i]);
++            }
++
++        }
++
++
++        return SpecRemovedChar;
++    }
++}
+Index: src/test/java/LeetCode/RomantoInteger.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/LeetCode/RomantoInteger.java b/src/test/java/LeetCode/RomantoInteger.java
+new file mode 100644
+--- /dev/null	(date 1666308867483)
++++ b/src/test/java/LeetCode/RomantoInteger.java	(date 1666308867483)
+@@ -0,0 +1,26 @@
++package LeetCode;
++
++import java.util.HashMap;
++import java.util.Map;
++
++public class RomantoInteger {
++    public int romanToInt(String s) {
++        Map<Character,Integer> romLet=new HashMap<>();
++        romLet.put('I',1);
++        romLet.put('V',5);
++        romLet.put('X',10);
++        romLet.put('L',50);
++        romLet.put('C',100);
++        romLet.put('D',500);
++        romLet.put('M',1000);
++        int strLen=s.length();
++
++        int lastInd=romLet.get(s.charAt(strLen-1));
++        for(int i=strLen-2; i>=0; i--){
++            if(romLet.get(s.charAt(i))>=romLet.get(s.charAt(i+1))){
++                lastInd+= romLet.get(s.charAt(i));
++            }else{
++                lastInd-=romLet.get(s.charAt(i));
++            }
++        }return lastInd;}
++}
+Index: src/test/java/LeetCode/Valid_Parantheses.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/LeetCode/Valid_Parantheses.java b/src/test/java/LeetCode/Valid_Parantheses.java
+new file mode 100644
+--- /dev/null	(date 1669701115042)
++++ b/src/test/java/LeetCode/Valid_Parantheses.java	(date 1669701115042)
+@@ -0,0 +1,30 @@
++package LeetCode;
++
++import java.util.Stack;
++
++public  class Valid_Parantheses {
++    public static boolean isValid(String s) {
++        Stack<Character> stack = new Stack<Character>();
++        boolean isValid = false;
++
++        for (int i = 0; i < s.length(); i++) {
++            char ch = s.charAt(i);
++            if (ch == '(' || ch == '{' || ch == '[') {
++                stack.push(ch);
++            } else {
++                if (!stack.isEmpty() && isPairParenthesis(stack.peek(), ch)) {
++                    stack.pop();
++                } else {
++                    return false;
++                }
++            }
++        }
++
++            return stack.isEmpty();
++        }
++
++    public static boolean isPairParenthesis(char c1, char  c2){
++        return (c1 == '(' && c2 == ')'|| c1 == '{' && c2 == '}'|| c1 == '[' && c2 == ']');
++    }
++
++}
+\ No newline at end of file
+Index: src/test/java/LeetCode/letterCount.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package LeetCode;\n\nimport org.junit.Test;\n\nimport java.util.HashMap;\nimport java.util.Map;\nimport  java.util.LinkedHashMap;\n\npublic class letterCount {\n\n    @Test\n    public void tsetCode(){\n\n        countNumRepLetterInWord(\"ghkjfgdtrdrdd  ddhgjwwwssddvvbb\");\n    }\n\n    public void countNumRepLetterInWord(String str){\n            // if order is matter, we can use LinkedHashMap instead\n\n        Map<Character, Integer> output = new LinkedHashMap<Character, Integer>();\n        for (int i = 0; i < str.length(); i++) {\n            char[] ch1=str.toCharArray();\n            char chValue=ch1[i];\n            if (output.containsKey(chValue)) {\n                output.put(chValue, output.get(chValue)+1);\n            } else {\n                output.put(chValue, 1);\n            }\n\n        }\n\n        System.out.println(output);}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/LeetCode/letterCount.java b/src/test/java/LeetCode/letterCount.java
+--- a/src/test/java/LeetCode/letterCount.java	(revision edcc934feb7e20e795dcf4158e8267b312f34cd6)
++++ b/src/test/java/LeetCode/letterCount.java	(date 1667967755836)
+@@ -17,12 +17,14 @@
+     public void countNumRepLetterInWord(String str){
+             // if order is matter, we can use LinkedHashMap instead
+ 
+-        Map<Character, Integer> output = new LinkedHashMap<Character, Integer>();
++        Map<Character, Integer> output = new HashMap<Character, Integer>();
+         for (int i = 0; i < str.length(); i++) {
+             char[] ch1=str.toCharArray();
+             char chValue=ch1[i];
++
+             if (output.containsKey(chValue)) {
+                 output.put(chValue, output.get(chValue)+1);
++
+             } else {
+                 output.put(chValue, 1);
+             }
+Index: src/test/java/LeetCode/reverseStringArrInt.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/LeetCode/reverseStringArrInt.java b/src/test/java/LeetCode/reverseStringArrInt.java
+new file mode 100644
+--- /dev/null	(date 1666308670257)
++++ b/src/test/java/LeetCode/reverseStringArrInt.java	(date 1666308670257)
+@@ -0,0 +1,98 @@
++package LeetCode;
++
++import org.junit.Test;
++
++import java.util.HashMap;
++import java.util.Map;
++
++public class reverseStringArrInt {
++
++    @Test
++    public void tsetreverse() {
++        System.out.println(ReverseHelper("Maria"));
++        int[] arr={6,7,8,9,0,8,9};
++        revArr(arr);
++      String s=  reverseOrderOfWords("dsjkfg gjgjgk bbb");
++      int i=romanToInt("MCMXCIV");
++    }
++    public int romanToInt(String s) {
++        Map<Character,Integer> romLet=new HashMap<>();
++        romLet.put('I',1);
++        romLet.put('V',5);
++        romLet.put('X',10);
++        romLet.put('L',50);
++        romLet.put('C',100);
++        romLet.put('D',500);
++        romLet.put('M',1000);
++        int strLen=s.length();
++
++        int lastInd=romLet.get(s.charAt(strLen-1));
++        for(int i=strLen-2; i>=0; i--){
++            if(romLet.get(s.charAt(i))>=romLet.get(s.charAt(i+1))){
++                lastInd+= romLet.get(s.charAt(i));
++            }else{
++                lastInd-=romLet.get(s.charAt(i));
++            }
++        }return lastInd;}
++
++
++
++    public String ReverseHelper(String str) {
++        String  nstr="";
++        char ch;
++
++        for (int i=str.length()-1; i>=0; i--)
++        {
++            nstr=nstr+ String.valueOf(str.charAt(i)); //extracts each character
++
++        }
++
++
++
++        return nstr;
++
++    }
++
++    public void revArr(int[] arrNum) {
++        // we will use two 'pointers'. One pointer will start from the beginning
++        // another one from the back and we will swap their values
++
++        // pointer that will start from the back
++        int j = arrNum.length - 1;
++        for (int i = 0; i < arrNum.length/2; i++) {
++            int temp = arrNum[i];
++            arrNum[i] = arrNum[j - i];
++            arrNum[j - i] = temp;
++
++
++        }
++        for (int i:arrNum) {
++            System.out.print(i);
++        }
++
++
++    }
++
++    public void reverseNums(int num){
++        int sum=0;
++        int lastNum=0;
++        while(num!=0){
++
++            lastNum=(num%10);
++            sum=(sum*10)+lastNum;
++            num=num/10;}
++    System.out.println(sum);}
++
++
++
++    public String reverseOrderOfWords(String input) {
++        String[] words = input.split(" ");
++        StringBuilder reverseString = new StringBuilder();
++
++        for (int i = words.length - 1; i >= 0; i--) {
++            reverseString.append(words[i]).append(" ");
++        }
++        System.out.println("reverseOrderOfWordsString = " + reverseString);
++        return reverseString.toString();
++    }
++}
+Index: src/test/java/LeetCode/twoSumSolution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package LeetCode;\n\nimport org.junit.Test;\n\npublic class twoSumSolution {\n\n@Test\npublic void runTwoSum(){\n    int[] arr={3,2,4};\n\n\n\n}\n\n        public int[] twoSum(int[] nums, int target){\n\n            int[] arrInt= new int[3];\n\n            for(int i=0; i<=nums.length-1; i++){\n                for(int j=i+1; j<=nums.length-1; j++){\n                    if(nums[i]+nums[j]==target){\n\n                        return new int[]{i,j};\n\n                    }\n                }\n            }\n            return arrInt;\n        }\n    }\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/LeetCode/twoSumSolution.java b/src/test/java/LeetCode/twoSumSolution.java
+--- a/src/test/java/LeetCode/twoSumSolution.java	(revision edcc934feb7e20e795dcf4158e8267b312f34cd6)
++++ b/src/test/java/LeetCode/twoSumSolution.java	(date 1666308831337)
+@@ -2,30 +2,75 @@
+ 
+ import org.junit.Test;
+ 
++import java.sql.Array;
++import java.util.ArrayList;
++import java.util.HashMap;
++import java.util.Hashtable;
++import java.util.List;
++
+ public class twoSumSolution {
+ 
+-@Test
+-public void runTwoSum(){
+-    int[] arr={3,2,4};
++    @Test
++    public void runTwoSum() {
++        ArrayList<Integer> arr = new ArrayList<>();
++        arr.add(-10);
++        arr.add(-3);
++        arr.add(-1);
++        arr.add(5);
++        arr.add(2);
++        arr.add(1);
+ 
+ 
+ 
+-}
++        two_sum(arr, 7);
++        for (int i : two_sum(arr, 7)) {
++            System.out.println(i);
++
++        }
++    }
+ 
+-        public int[] twoSum(int[] nums, int target){
++    public int[] twoSum(int[] nums, int target) {
+ 
+-            int[] arrInt= new int[3];
++        int[] arrInt = new int[3];
+ 
+-            for(int i=0; i<=nums.length-1; i++){
+-                for(int j=i+1; j<=nums.length-1; j++){
+-                    if(nums[i]+nums[j]==target){
++        for (int i = 0; i <= nums.length - 1; i++) {
++            for (int j = i + 1; j <= nums.length - 1; j++) {
++                if (nums[i] + nums[j] == target) {
+ 
+-                        return new int[]{i,j};
++                    return new int[]{i, j};
+ 
+-                    }
+-                }
+-            }
+-            return arrInt;
++                }
++            }
++        }
++        return arrInt;
++    }
++
++    static ArrayList<Integer> two_sum(ArrayList<Integer> numbers, Integer target) {
++        // Write your code here.
++
++        HashMap<Integer, Integer> HashCol = new HashMap<Integer, Integer>();
++
++        for (int i = 0; i < numbers.size(); i++) {
++            if (HashCol.containsKey(target - numbers.get(i))) {
++                ArrayList<Integer> arr = new ArrayList<Integer>();
++                arr.add(0, HashCol.get(target - numbers.get(i)));
++                arr.add(1, i);
++                return arr;
++            } else {
++                HashCol.put(numbers.get(i), i);
++            }
+         }
++        return new ArrayList(List.of(-1, 1));
+     }
++
++
++
++
++    }
++
++
++
++
++
++
+ 
+Index: src/test/java/Test/testLinkedList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Test/testLinkedList.java b/src/test/java/Test/testLinkedList.java
+new file mode 100644
+--- /dev/null	(date 1670109003834)
++++ b/src/test/java/Test/testLinkedList.java	(date 1670109003834)
+@@ -0,0 +1,40 @@
++package Test;
++
++
++import DataStructures.LinkedList;
++import org.junit.Test;
++
++public class testLinkedList {
++    @Test
++    public void test_on_insertionlinkedlist(){
++        LinkedList list = new LinkedList();
++
++        LinkedList.insert(list,8);
++        LinkedList.insert(list,89);
++        LinkedList.insert(list,90);
++        LinkedList.insert(list,34);
++        LinkedList.insert(list,45);
++        LinkedList.insert(list,77);
++        LinkedList.insert(list,88);
++        LinkedList.insert(list,89);
++        LinkedList.insert(list,23);
++        LinkedList.print_linked_list(list);
++
++
++    }
++    @Test
++    public void test_on_insertionStringlinkedlist(){
++        LinkedList list = new LinkedList();
++
++        LinkedList.inserString(list,"hi");
++        LinkedList.inserString(list,"hoi");
++        LinkedList.inserString(list,"dow");
++        LinkedList.inserString(list,"move");
++        LinkedList.inserString(list,"soi");
++
++        LinkedList.print_linked_list(list);
++
++
++    }
++
++}

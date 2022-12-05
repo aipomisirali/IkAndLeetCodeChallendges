@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6491f08b-06c2-4961-85ee-f317da1185dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataStructures/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataStructures/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataStructures/StackDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/FibNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/RemoveSpeciallChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/RomantoInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/Valid_Parantheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/reverseStringArrInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/testLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/DataStructures/LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/DataStructures/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/DataStructures/StackDS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/FibNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/LongestCommonPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/RemoveSpeciallChars.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/RomantoInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/Valid_Parantheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/reverseStringArrInt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test/testLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IK/bubleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IK/bubleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/letterCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/letterCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/reverseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/twoSumSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/twoSumSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IK/bubleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IK/bubleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LeetCode/letterCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/letterCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LeetCode/reverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LeetCode/twoSumSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LeetCode/twoSumSolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/QuickSRT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/QuickSRT.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IThsTo38MZkBVKE231czHzXUfp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6491f08b-06c2-4961-85ee-f317da1185dc" name="Changes" comment="" />
+      <created>1670211688332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670211688332</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Aipo" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
